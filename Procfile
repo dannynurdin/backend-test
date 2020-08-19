@@ -1,0 +1,1 @@
+web: gunicorn vueapi.wsgi:application --log-file -
