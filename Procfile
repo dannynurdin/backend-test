@@ -1,1 +1,1 @@
-web: gunicorn vueapi.wsgi
+web: gunicorn vueapi.wsgi --log-file -
